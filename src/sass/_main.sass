@@ -1,0 +1,78 @@
+.main
+  position: relative
+  background: #373737 url(../img/background-img.jpg) center no-repeat 
+  background-size: cover 
+  padding-top: 65px
+  padding-bottom: 60px
+  color: $text-color-light
+  z-index: 2
+  &::before
+    content: ''
+    display: block
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    background-color: rgba(0, 0, 0, 0.6)
+    z-index: 0
+  &-img
+    position: relative
+    &::before
+      content: '' 
+      position: absolute
+      width: 390px
+      height: 390px
+      left: 50%
+      margin-left: -195px
+      border: 1px solid #ffffff
+      border-radius: 50%
+      z-index: -1
+      /* Круг позади коробок */
+    &::after
+      content: ''
+      position: absolute
+      background: no-repeat url(../img/layer_56.png)
+      width: 60px
+      height: 50px
+      margin-left: 90px
+      bottom: 1
+      margin-top: -39px
+      /* Ставим лого на коробках */
+  &-text
+    &__title
+      font-size: 41px
+    &__subtitle
+      font-size: 23px
+      padding-bottom: 24px
+    /* Стилизируем текст */
+    &__form
+      background-color: rgba(255, 255, 255, 0.2)
+      padding: 30px 27px
+
+.form
+  display: flex
+  justify-content: space-between
+  &-title
+    font-size: 20px
+    font-weight: 300
+    margin-bottom: 20px
+    padding-right: 87px
+    line-height: 30px;
+    &__important
+      display: block
+      font-weight: 700;
+      text-transform: uppercase;
+
+.input
+  margin-right: 10px
+  padding: 18px 19px
+  border-radius: 4px
+  max-height: 56px
+  border: 1px solid #ffffff
+  margin-bottom: 15px
+  width: 311px
+.form-subtitle
+  margin-left: 19px
+
+  
