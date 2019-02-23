@@ -1,0 +1,75 @@
+.features
+    background-color: $bg-color-light
+    padding-top: 49px
+    padding-bottom: 55px
+    text-align: center
+    &-l
+        display: flex
+        justify-content: center
+    &-blocks
+        display: flex
+        justify-content: space-around
+        flex-wrap: wrap
+        width: 971px
+    &-block
+        display: flex
+        flex-basis: 31%
+        padding: 28px 18px
+        margin-bottom: 30px
+        background-color: #fff
+        align-items: center
+        max-width: 294px
+        &__img
+            flex-basis: 40%
+            margin-right: 11px
+        &__title
+            font-size: 16px
+            font-weight: 700
+            margin-bottom: 5px
+        &__subtitle
+            font-size: 14px
+            font-weight: 300
+
+.numbers
+    text-align: center
+    padding-top: 50px
+    margin-bottom: 37px
+    &-block
+        display: inline-block
+        width: 33%
+        vertical-align: top
+        &__title
+            color: $active-color
+            font-size: 36px
+            font-weight: 900
+            margin-bottom: 8px
+        &__subtitle
+            font-size: 18px
+            font-weight: 400
+
+.products
+    text-align: center
+    &-title
+        padding-top: 57px
+        text-transform: uppercase
+        font-size: 27px
+        font-weight: 700
+        margin-bottom: 31px
+        &::after
+            content: ''
+            display: block
+            background: url(../img/products/after.png) center no-repeat
+            height: 6px
+            margin-top: 12px
+    &-block
+        margin-bottom: 35px
+        &__descr
+            font-size: 20px
+            font-weight: 600
+            margin-bottom: 28px
+        &__img
+            display: flex
+            justify-content: center
+            align-items: center
+            min-height: 283px
+
