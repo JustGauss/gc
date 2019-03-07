@@ -23,8 +23,15 @@
       crossorigin="anonymous"
     />
 
+    <!-- Подключение библиотеки-слайдера -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
     <!-- Подключение Animate библиотеки -->
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/animate.css" />
 
     <!-- Подключение CSS стилей -->
     <link rel="stylesheet" href="css/style.css" />
@@ -55,12 +62,13 @@
     <section class="main">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-12 col-md-5">
-            <div class="main-img animat">
+          <div class="col-12 col-md-12 col-lg-5">
+            <div class="main-img main-slider">
               <img src="img/Layer_55.png" alt="boxes" />
+              <img src="img/boxes1.png" alt="boxes1" />
             </div>
           </div>
-          <div class="col-12 col-md-7">
+          <div class="col-12 col-md-12 col-lg-7">
             <div class="main-text">
               <h1 class="main-text__title">
                 Производство упаковки из гофрокартона
@@ -97,14 +105,18 @@
         <div class="numbers-block">
           <div class="numbers-block__title">5 лет</div>
           <!-- /.features-number__title -->
-          <div class="numbers-block__subtitle">На рынке изделий из гофрокартона</div>
+          <div class="numbers-block__subtitle">
+            На рынке изделий из гофрокартона
+          </div>
           <!-- /.features-number__subtitle -->
         </div>
         <!-- /.features-number -->
         <div class="numbers-block">
           <div class="numbers-block__title">до 5 000 000 м2</div>
           <!-- /.features-number__title -->
-          <div class="numbers-block__subtitle">Ежемесячный объем производства гофрокартона</div>
+          <div class="numbers-block__subtitle">
+            Ежемесячный объем производства гофрокартона
+          </div>
           <!-- /.features-number__subtitle -->
         </div>
         <!-- /.features-number -->
@@ -119,89 +131,140 @@
       <!-- /.features-numbers -->
       <div class="features-l">
         <div class="features-blocks">
-        <div class="features-block wow zoomIn" data-wow-duration="0.3s" data-wow-delay="0.1s">
-          <div class="features-block__img"><img src="img/features/icon-1.png" alt=""></div>
-          <!-- /.features-block__img -->
-          <div class="features-block__text">
-            <div class="features-block__title">Производство</div>
-            <!-- /.features-block__title -->
-            <div class="features-block__descr">4 технологические линии способны выполнить любой заказ любой сложности</div>
-            <!-- /.features-block__descr -->
+          <div
+            class="features-block wow zoomIn"
+            data-wow-duration="0.3s"
+            data-wow-delay="0.1s"
+          >
+            <div class="features-block__img">
+              <img src="img/features/icon-1.png" alt="" />
+            </div>
+            <!-- /.features-block__img -->
+            <div class="features-block__text">
+              <div class="features-block__title">Производство</div>
+              <!-- /.features-block__title -->
+              <div class="features-block__descr">
+                4 технологические линии способны выполнить любой заказ любой
+                сложности
+              </div>
+              <!-- /.features-block__descr -->
+            </div>
+            <!-- /.features-block__text -->
           </div>
-          <!-- /.features-block__text -->
-        </div>
-        <!-- /.features-block -->
+          <!-- /.features-block -->
 
-        <div class="features-block wow zoomIn" data-wow-duration="0.3s" data-wow-delay="0.2s">
-          <div class="features-block__img"><img src="img/features/icon-2.png" alt=""></div>
-          <!-- /.features-block__img -->
-          <div class="features-block__text">
-            <div class="features-block__title">Бесплатные образцы</div>
-            <!-- /.features-block__title -->
-            <div class="features-block__descr">Бесплатно делаем образцы гофроупаковки - это помогает заранее увидеть упаковку</div>
-            <!-- /.features-block__descr -->
+          <div
+            class="features-block wow zoomIn"
+            data-wow-duration="0.3s"
+            data-wow-delay="0.2s"
+          >
+            <div class="features-block__img">
+              <img src="img/features/icon-2.png" alt="" />
+            </div>
+            <!-- /.features-block__img -->
+            <div class="features-block__text">
+              <div class="features-block__title">Бесплатные образцы</div>
+              <!-- /.features-block__title -->
+              <div class="features-block__descr">
+                Бесплатно делаем образцы гофроупаковки - это помогает заранее
+                увидеть упаковку
+              </div>
+              <!-- /.features-block__descr -->
+            </div>
+            <!-- /.features-block__text -->
           </div>
-          <!-- /.features-block__text -->
-        </div>
-        <!-- /.features-block -->
+          <!-- /.features-block -->
 
-        <div class="features-block wow zoomIn" data-wow-duration="0.3s" data-wow-delay="0.3s">
-          <div class="features-block__img"><img src="img/features/icon-3.png" alt=""></div>
-          <!-- /.features-block__img -->
-          <div class="features-block__text">
-            <div class="features-block__title">Стабильное качество</div>
-            <!-- /.features-block__title -->
-            <div class="features-block__descr">Собственная лаборатория контролирует качество на каждом этапе производства</div>
-            <!-- /.features-block__descr -->
+          <div
+            class="features-block wow zoomIn"
+            data-wow-duration="0.3s"
+            data-wow-delay="0.3s"
+          >
+            <div class="features-block__img">
+              <img src="img/features/icon-3.png" alt="" />
+            </div>
+            <!-- /.features-block__img -->
+            <div class="features-block__text">
+              <div class="features-block__title">Стабильное качество</div>
+              <!-- /.features-block__title -->
+              <div class="features-block__descr">
+                Собственная лаборатория контролирует качество на каждом этапе
+                производства
+              </div>
+              <!-- /.features-block__descr -->
+            </div>
+            <!-- /.features-block__text -->
           </div>
-          <!-- /.features-block__text -->
-        </div>
-        <!-- /.features-block -->
+          <!-- /.features-block -->
 
-        <div class="features-block wow zoomIn" data-wow-duration="0.3s" data-wow-delay="0.4s">
-          <div class="features-block__img"><img src="img/features/icon-4.png" alt=""></div>
-          <!-- /.features-block__img -->
-          <div class="features-block__text">
-            <div class="features-block__title">Страховой запас</div>
-            <!-- /.features-block__title -->
-            <div class="features-block__descr">Можем хранить запас гофропродукции на своих складах и поставлять его партиями</div>
-            <!-- /.features-block__descr -->
+          <div
+            class="features-block wow zoomIn"
+            data-wow-duration="0.3s"
+            data-wow-delay="0.4s"
+          >
+            <div class="features-block__img">
+              <img src="img/features/icon-4.png" alt="" />
+            </div>
+            <!-- /.features-block__img -->
+            <div class="features-block__text">
+              <div class="features-block__title">Страховой запас</div>
+              <!-- /.features-block__title -->
+              <div class="features-block__descr">
+                Можем хранить запас гофропродукции на своих складах и поставлять
+                его партиями
+              </div>
+              <!-- /.features-block__descr -->
+            </div>
+            <!-- /.features-block__text -->
           </div>
-          <!-- /.features-block__text -->
-        </div>
-        <!-- /.features-block -->
+          <!-- /.features-block -->
 
-        <div class="features-block wow zoomIn" data-wow-duration="0.3s" data-wow-delay="0.5s">
-          <div class="features-block__img"><img src="img/features/icon-5.png" alt=""></div>
-          <!-- /.features-block__img -->
-          <div class="features-block__text">
-            <div class="features-block__title">Флексопечать</div>
-            <!-- /.features-block__title -->
-            <div class="features-block__descr">Возможно нанесение вашего  логотипа, текста или мани- пуляционных знаков</div>
-            <!-- /.features-block__descr -->
+          <div
+            class="features-block wow zoomIn"
+            data-wow-duration="0.3s"
+            data-wow-delay="0.5s"
+          >
+            <div class="features-block__img">
+              <img src="img/features/icon-5.png" alt="" />
+            </div>
+            <!-- /.features-block__img -->
+            <div class="features-block__text">
+              <div class="features-block__title">Флексопечать</div>
+              <!-- /.features-block__title -->
+              <div class="features-block__descr">
+                Возможно нанесение вашего логотипа, текста или мани- пуляционных
+                знаков
+              </div>
+              <!-- /.features-block__descr -->
+            </div>
+            <!-- /.features-block__text -->
           </div>
-          <!-- /.features-block__text -->
-        </div>
-        <!-- /.features-block -->
+          <!-- /.features-block -->
 
-        <div class="features-block wow zoomIn" data-wow-duration="0.3s" data-wow-delay="0.6s">
-          <div class="features-block__img"><img src="img/features/icon-6.png" alt=""></div>
-          <!-- /.features-block__img -->
-          <div class="features-block__text">
-            <div class="features-block__title">Гидрофобные добавки</div>
-            <!-- /.features-block__title -->
-            <div class="features-block__descr">На производстве реализована технология, которая позволяет гофрокартону стать прочне</div>
-            <!-- /.features-block__descr -->
+          <div
+            class="features-block wow zoomIn"
+            data-wow-duration="0.3s"
+            data-wow-delay="0.6s"
+          >
+            <div class="features-block__img">
+              <img src="img/features/icon-6.png" alt="" />
+            </div>
+            <!-- /.features-block__img -->
+            <div class="features-block__text">
+              <div class="features-block__title">Гидрофобные добавки</div>
+              <!-- /.features-block__title -->
+              <div class="features-block__descr">
+                На производстве реализована технология, которая позволяет
+                гофрокартону стать прочне
+              </div>
+              <!-- /.features-block__descr -->
+            </div>
+            <!-- /.features-block__text -->
           </div>
-          <!-- /.features-block__text -->
+          <!-- /.features-block -->
         </div>
-        <!-- /.features-block -->
+        <!-- /.features-blocks -->
       </div>
-      <!-- /.features-blocks -->
-      </div>
-      
-      
-      
     </section>
     <!-- /.features -->
 
@@ -214,7 +277,7 @@
           <div class="col-lg-6 col-md-12">
             <div class="products-block wow fadeInLeft" data-wow-duration="0.2s">
               <div class="products-block__img">
-                <img src="img/products/img-1.jpg" alt="">
+                <img src="img/products/img-1.jpg" alt="" />
               </div>
               <!-- /.products-block__img -->
               <div class="products-block__descr">Гофрокороб 4-х клапанный</div>
@@ -225,25 +288,28 @@
           </div>
           <!-- /.products-block col-6 -->
           <div class="col-lg-6 col-md-12">
-            <div class="products-block wow fadeInRight" data-wow-duration="0.2s">
+            <div
+              class="products-block wow fadeInRight"
+              data-wow-duration="0.2s"
+            >
               <div class="products-block__img">
-                <img src="img/products/img-2.jpg" alt="">
+                <img src="img/products/img-2.jpg" alt="" />
               </div>
               <div class="products-block__descr">Гофролоток</div>
               <!-- /.products-block__descr -->
               <button class="button button-o">Подробнее</button>
               <button class="button">Получить расчёт</button>
-            </div>          
+            </div>
           </div>
         </div>
-            
+
         <div class="row">
           <div class="col-lg-6 col-md-12">
             <div class="products-block wow fadeInLeft" data-wow-duration="0.2s">
               <div class="products-block__img">
-                <img src="img/products/img-4.jpg" alt="">
+                <img src="img/products/img-4.jpg" alt="" />
               </div>
-              
+
               <div class="products-block__descr">
                 Гофрокороб самосборный (сложная высечка)
               </div>
@@ -253,14 +319,17 @@
             </div>
             <!-- /.products-block col-6 -->
           </div>
-            
+
           <div class="col-lg-6 col-md-12">
-            <div class="products-block wow fadeInRight" data-wow-duration="0.2s">
+            <div
+              class="products-block wow fadeInRight"
+              data-wow-duration="0.2s"
+            >
               <div class="products-block__img">
-                <img src="img/products/img-3.jpg" alt="">
+                <img src="img/products/img-3.jpg" alt="" />
               </div>
               <div class="products-block__descr">
-                  Листовой гофрокартон
+                Листовой гофрокартон
               </div>
               <!-- /.products-block__descr -->
               <button class="button button-o">Подробнее</button>
@@ -305,6 +374,128 @@
       </div>
     </div>
 
+    <section class="production">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 order-1 order-sm-0">
+            <div class="production-slider-up">
+              <img
+                class="slider-up-img"
+                src="img/production/photo.jpg"
+                alt="production"
+              />
+              <img
+                class="slider-up-img"
+                src="img/production/poster.jpg"
+                alt="production"
+              />
+              <img
+                class="slider-up-img"
+                src="img/production/photo.jpg"
+                alt="production"
+              />
+              <img
+                class="slider-up-img"
+                src="img/production/poster.jpg"
+                alt="production"
+              />
+              <img
+                class="slider-up-img"
+                src="img/production/photo.jpg"
+                alt="production"
+              />
+              <img
+                class="slider-up-img"
+                src="img/production/poster.jpg"
+                alt="production"
+              />
+            </div>
+            <!-- /.production-slider_up -->
+            <div class="production-slider-down">
+              <img
+                class="slider-down-img"
+                src="img/production/photo.jpg"
+                alt="production"
+              />
+              <img
+                class="slider-down-img"
+                src="img/production/poster.jpg"
+                alt="production"
+              />
+              <img
+                class="slider-down-img"
+                src="img/production/photo.jpg"
+                alt="production"
+              />
+              <img
+                class="slider-down-img"
+                src="img/production/poster.jpg"
+                alt="production"
+              />
+              <img
+                class="slider-down-img"
+                src="img/production/photo.jpg"
+                alt="production"
+              />
+              <img
+                class="slider-down-img"
+                src="img/production/poster.jpg"
+                alt="production"
+              />
+            </div>
+            <!-- /.production-slider_down -->
+          </div>
+          <!-- /.col-lg-7 -->
+          <div class="col-lg-5 order-0 order-sm-1">
+            <div class="production-title"><h2>Производство</h2></div>
+            <!-- /.production-title -->
+            <div class="production-descr">
+              Современное оборудование позволяет производить до 5 миллионов
+              квадратных метров гофрокартона ежемесячно. Гофрокороба и лотки
+              производятся по ГОСТу или чертежам заказчика.
+              <span
+                >Досконально прорабатываем конструкции коробов и составы сырья,
+                учитывая условия хранения, транспортировки и производства вашей
+                продукции.</span
+              >
+              Возможно нанесение цветной флексопечати на поверхность коробов.
+            </div>
+            <!-- /.production-descr -->
+          </div>
+          <!-- /.col-lg-5 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.production -->
+
+    <section>
+      <div class="feedback">
+        <h2 class="section-title">
+          Отзывы о сотрудничестве
+        </h2>
+        <!-- /.section-title -->
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="feedback-slider">
+                  <img src="img/feedback/doc1.jpg" alt="" class="feedback-slider__img">
+                  <img src="img/feedback/doc2.jpg" alt="" class="feedback-slider__img">
+                  <img src="img/feedback/doc3.jpg" alt="" class="feedback-slider__img">
+                  <img src="img/feedback/doc1.jpg" alt="" class="feedback-slider__img">
+                  <img src="img/feedback/doc2.jpg" alt="" class="feedback-slider__img">
+                  <img src="img/feedback/doc3.jpg" alt="" class="feedback-slider__img">
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        <!-- /.feedback-slider -->
+      </div>
+      <!-- /.feedback -->
+    </section>
+
     <!-- Подключение JQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
@@ -323,6 +514,67 @@
         $(".popup-close").on("click", function() {
           $(".overlay").hide();
         });
+      });
+    </script>
+
+    <!-- Подключение слайдер-библиотеки -->
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <script>
+      $(".main-slider").slick({
+        arrows: false,
+        autoplay: true,
+        autoplayspeed: 3000
+      });
+
+      $(".production-slider-up").slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        fade: true,
+        asNavFor: ".production-slider-down",
+        arrows: false,
+        responsive: [{
+          breakpoint:576,
+          settings: {
+            arrows: true,
+            prevArrow: '<button type="button" class="slider-arrow slider-arrow_left_resp"></button>',
+            nextArrow: '<button type="button" class="slider-arrow slider-arrow_right_resp"></button>'
+          }
+        }]
+      });
+
+      $(".production-slider-down").slick({
+        slidesToShow: 4,
+        sliderToScroll: 1,
+        asNavFor: ".production-slider-up",
+        arrows: true,
+        prevArrow:
+          '<button type="button" class="slider-arrow slider-arrow_left"></button>',
+        nextArrow:
+          '<button type="button" class="slider-arrow slider-arrow_right"></button>',
+        centerMode: true,
+        focusOnSelect: true
+      });
+
+      $(".feedback-slider").slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: true,
+        prevArrow:
+          '<button type="button" class="feedback-slider_arrow feedback-slider_arrow__left"></button>',
+        nextArrow:
+          '<button type="button" class="feedback-slider_arrow feedback-slider_arrow__right"></button>',
+        autoplay: true,
+        autoplaySpeed: 3000,
+        responsive: [{
+          breakpoint: 576,
+          settings: {
+          slidesToShow: 1
+          }
+        }]
       });
     </script>
   </body>
